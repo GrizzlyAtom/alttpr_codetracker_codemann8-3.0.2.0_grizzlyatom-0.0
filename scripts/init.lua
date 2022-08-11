@@ -100,6 +100,7 @@ ScriptHost:LoadScript("scripts/logic.lua")
 if Tracker.ActiveVariantUID == "full_tracker" then
     Tracker:AddMaps("maps/overworld.json")
     Tracker:AddMaps("maps/dungeons.json")
+    Tracker:AddMaps("maps/quickref.json")
 end
 
 --Map Locations
