@@ -3,8 +3,7 @@
         "type": "array",
         "orientation": "horizontal",
         "h_alignment": "center",
-        "-v_alignment": "center",
-        "margin": "0,0,0,3",
+        "margin": "0,0,0,0",
         "content": [
             {
                 "type": "itemgrid",
