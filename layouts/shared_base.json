@@ -961,6 +961,74 @@
             }
         ]
     },
+    "shared_qref_tab": {    //NEW
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "IPBJ",
+                "content": {
+                    "type": "map",
+                    "maps": [ "ipbj" ]
+                }
+            },
+            {
+                "title": "Ice Breaker",
+                "content": {
+                    "type": "map",
+                    "maps": [ "ice_breaker" ]
+                }
+            },
+            {
+                "title": "Herapot",
+                "content": {
+                    "type": "map",
+                    "maps": [ "herapot" ]
+                }
+            },
+            {
+                "title": "Mire Door",
+                "content": {
+                    "type": "map",
+                    "maps": [ "mire_door" ]
+                }
+            },
+            {
+                "title": "PoD Stairs",
+                "content": {
+                    "type": "map",
+                    "maps": [ "pod_stairs" ]
+                }
+            },
+            {
+                "title": "PoD Big Chest",
+                "content": {
+                    "type": "map",
+                    "maps": [ "pod_bc" ]
+                }
+            },
+            {
+                "title": "Diver Down",
+                "content": {
+                    "type": "map",
+                    "maps": [ "diver_down" ]
+                }
+            },
+            {
+                "title": "Tree Pull",
+                "content": {
+                    "type": "map",
+                    "maps": [ "tree_pull" ]
+                }
+            },
+            {
+                "title": "Damage Table",
+                "content": {
+                    "type": "map",
+                    "maps": [ "damage_table" ]
+                }
+            }
+        ]
+    },
     "shared_map": {
         "type": "container",
         "v_alignment": "center",
@@ -1172,6 +1240,12 @@
                     "type": "layout",
                     "key": "shared_dark_room_tab"    //WIP
                 }
+            },
+            {
+                "title": "Quick Reference",    //NEW
+                "content": {
+                    "type": "layout",
+                    "key": "shared_qref_tab"
             },
             {
                 "title": "Settings",
