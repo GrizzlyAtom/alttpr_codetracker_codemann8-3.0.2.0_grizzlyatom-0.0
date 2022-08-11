@@ -2,9 +2,9 @@
 	
 	"y_item_grid": {
 		"type": "container",
-		"margin": -5,	
+		"margin": -5,	//for some reason, i have to put -5 here. no clue why
 		"content": [
-			{	
+			{	//y items
 				"type": "itemgrid",
 				"item_size": 72,
 				"item_margin": "4,4",
@@ -15,25 +15,25 @@
 					["bottle",	"somaria",			"byrna",	"cape",		"mirror"	]
 				]
 			},
-			{	
+			{	//y item swaps - mushroom&powder - powder
 				"type": "item",
 				"item": "powder_used",
 				"width": 54,
 				"margin": "300,030,0,0"
 			},
-			{	
+			{	//y item swaps - mushroom&powder - mushroom
 				"type": "item",
 				"item": "mushroom_used",
 				"width": 54,
 				"margin": "360,010,0,0"
 			},
-			{	
+			{	//y item swaps - flute&shovel - flute
 				"type": "item",
 				"item": "flute",
 				"width": 54,
 				"margin": "-30,190,0,0"
 			},
-			{	
+			{	//y item swaps - flute&shovel - shovel
 				"type": "item",
 				"item": "shovel_used",
 				"width": 54,
@@ -46,7 +46,7 @@
 		"type": "container",
 		"margin": -5,
 		"content": [
-			{	
+			{	//gear
 				"type": "itemgrid",
 				"item_size": 72,
 				"item_margin": "4,4",
@@ -64,11 +64,11 @@
 		"type": "container",
 		"margin": -5,
 		"content": [
-			{	
+			{	//modes
 				"type": "itemgrid",
 				"item_size": 72,
 				"item_margin": "4,4",
-				"rows": [	
+				"rows": [	//two blanks... ideas; gt_crystals, "goal_setting", "race_mode" ("_small"?), other?
 					[""],
 					[""],
 					["agas"],
@@ -88,7 +88,7 @@
 			[ "hc_label",		"easternpalace",	"desertpalace",		"towerofhera",		"at_label"		],
 			[ "hc_item",		"ep_item",			"dp_item",			"toh_item",			"at_item"		],
 			[ "hc_smallkey",	"ep_smallkey",		"dp_smallkey",		"toh_smallkey",		"at_smallkey"	],
-			
+			//[ "hc_bigkey",		"ep_bigkey",		"dp_bigkey",		"toh_bigkey",		"at_bigkey"		]
 			[ "hc_mcbk",		"ep_mcbk",			"dp_mcbk",			"toh_mcbk",			"at_mcbk"		]
 		]
 	},
@@ -103,7 +103,7 @@
 			[ "palaceofdarkness",	"swamppalace",	"skullwoods",	"thievestown",	"icepalace",	"miserymire",	"turtlerock",	"gt_label"		],
 			[ "pod_item",			"sp_item",		"sw_item",		"tt_item",		"ip_item",		"mm_item",		"tr_item",		"gt_item"		],
 			[ "pod_smallkey",		"sp_smallkey",	"sw_smallkey",	"tt_smallkey",	"ip_smallkey",	"mm_smallkey",	"tr_smallkey",	"gt_smallkey"	],
-			
+			//[ "pod_bigkey",			"sp_bigkey",	"sw_bigkey",	"tt_bigkey",	"ip_bigkey",	"mm_bigkey",	"tr_bigkey",	"gt_bigkey"		]
 			[ "pod_mcbk",			"sp_mcbk",		"sw_mcbk",		"tt_mcbk",		"ip_mcbk",		"mm_mcbk",		"tr_mcbk",		"gt_mcbk"		]
 		]
 	},
@@ -114,13 +114,13 @@
 		"dropshadow": false,
 		"margin": 0,
 		"content": [
-			{	
+			{	//map
 				"type": "layout",
 				"margin": 20,
 				"width": 646,
 				"key": "shared_map"
 			},
-			{	
+			{	//items
 				"type": "array",
 				"orientation": "horizontal",
 				"margin": 20,
@@ -142,17 +142,17 @@
 					}
 				]
 			},
-			{	
+			{	//keys
 				"type": "array",
 				"orientation": "horizontal",
 				"margin": 20,
 				"content": [
-					{	
+					{	//lw
 						"type": "layout",
 						"margin": 0,
 						"key": "lw_keys_grid"
 					},
-					{	
+					{	//dw
 						"type": "layout",
 						"margin": "22,0,0,0",
 						"key": "dw_keys_grid"
