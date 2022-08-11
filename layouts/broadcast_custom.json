@@ -19,7 +19,7 @@
 				"type": "item",
 				"item": "powder_used",
 				"width": 54,
-				"margin": "300,030,0,0"
+				"margin": "300,030,0,0"	//tried to math out the grid spacing, but ultimately had to guess-and-check until it looked good (typical all y item swaps)
 			},
 			{	//y item swaps - mushroom&powder - mushroom
 				"type": "item",
