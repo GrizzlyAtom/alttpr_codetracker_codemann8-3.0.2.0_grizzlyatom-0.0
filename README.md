@@ -1,3 +1,11 @@
+# Fork Disclaimer
+This is a personal fork of Codemann8's repo.
+
+
+ORIGINAL BELOW THIS LINE
+
+---
+
 # CodeTracker Full Tracker Package for EmoTracker
 Join the [Discord](https://discord.gg/Fk4wTn6) to get notified of updates and/or join the discussion of the various features!
 
