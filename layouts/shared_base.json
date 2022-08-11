@@ -48,29 +48,29 @@
         ]
     },
     "shared_basic_lw_grid": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "v_alignment": "center",
-        "item_margin": "1,2",
-        "item_size": 50,
-        "badge_font_size": 24,
-        "rows": [
-            [ "", "towerofhera", "" ],
-            [ "desertpalace", "easternpalace" ]
-        ]
+//        "type": "itemgrid",
+//        "h_alignment": "center",
+//        "v_alignment": "center",
+//        "item_margin": "1,2",
+//        "item_size": 50,
+//        "badge_font_size": 24,
+//        "rows": [
+//            [ "", "towerofhera", "" ],
+//            [ "desertpalace", "easternpalace" ]
+//        ]
     },
     "shared_basic_dw_grid": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "v_alignment": "center",
-        "item_margin": "1,2",
-        "item_size": 50,
-        "badge_font_size": 24,
-        "rows": [
-            [ "skullwoods", "", "turtlerock" ],
-            [ "thievestown", "", "palaceofdarkness" ],
-            [ "miserymire", "swamppalace", "icepalace" ]
-        ]
+//        "type": "itemgrid",
+//        "h_alignment": "center",
+//        "v_alignment": "center",
+//        "item_margin": "1,2",
+//        "item_size": 50,
+//        "badge_font_size": 24,
+//        "rows": [
+//            [ "skullwoods", "", "turtlerock" ],
+//            [ "thievestown", "", "palaceofdarkness" ],
+//            [ "miserymire", "swamppalace", "icepalace" ]
+//        ]
     },
     "modes_popup": {
         "type": "array",
@@ -367,137 +367,137 @@
         ]
     },
     "shared_mode_vertical_grid": {
-        "type": "array",
-        "orientation": "horizontal",
-        "h_alignment": "center",
-        "v_alignment": "center",
-        "margin": "1,-4",
-        "content": [
-            {
-                "type": "array",
-                "orientation": "vertical",
-                "h_alignment": "center",
-                "margin": "1,0",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "margin": 0,
-                        "item_margin": 0,
-                        "item_size": 40,
-                        "rows": [
-                            [ "world_state_mode_small" ]
-                        ]
-                    },
-                    {
-                        "type": "itemgrid",
-                        "margin": 0,
-                        "item_margin": 0,
-                        "item_size": 20,
-                        "rows": [
-                            [ "keysanity_map_small", "keysanity_compass_small" ],
-                            [ "keysanity_smallkey_small", "keysanity_bigkey_small" ]
-                        ]
-                    },
-                    {
-                        "type": "array",
-                        "orientation": "vertical",
-                        "h_alignment": "left",
-                        "v_alignment": "top",
-                        "margin": 0,
-                        "content": [
-                            {
-                                "type": "itemgrid",
-                                "margin": "1,0",
-                                "item_margin": 0,
-                                "item_size": 20,
-                                "rows": [
-                                    [ "pool_shopsanity_small", "pool_bonkdrop_small" ]
-                                ]
-                            },
-                            {
-                                "type": "itemgrid",
-                                "margin": "1,0",
-                                "item_margin": 0,
-                                "item_size": 20,
-                                "rows": [
-                                    [ "pool_enemydrop_small", "pool_dungeonpot_small" ]
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "type": "itemgrid",
-                        "margin": 0,
-                        "item_margin": 0,
-                        "item_size": 40,
-                        "rows": [
-                            [ "retro_mode_small"],
-                            [ "gt_crystals" ]
-                        ]
-                    }
-                ]
-            },
-            {
-                "type": "array",
-                "orientation": "vertical",
-                "h_alignment": "center",
-                "margin": "1,0",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "margin": 0,
-                        "item_margin": 0,
-                        "item_size": 40,
-                        "rows": [
-                            [ "entrance_shuffle_small" ],
-                            [ "door_shuffle_small" ]
-                        ]
-                    },
-                    {
-                        "type": "itemgrid",
-                        "margin": 0,
-                        "item_margin": 0,
-                        "item_width": 40,
-                        "item_height": 20,
-                        "rows": [
-                            [ "ow_mixed_small" ],
-                            [ "ow_layout_small" ]
-                        ]
-                    },
-                    {
-                        "type": "itemgrid",
-                        "margin": 0,
-                        "item_margin": 0,
-                        "item_size": 40,
-                        "rows": [
-                            [ "glitch_mode_small" ],
-                            [ "goal_setting" ]
-                        ]
-                    }
-                ]
-            }
-        ]
+//        "type": "array",
+//        "orientation": "horizontal",
+//        "h_alignment": "center",
+//        "v_alignment": "center",
+//        "margin": "1,-4",
+//        "content": [
+//            {
+//                "type": "array",
+//                "orientation": "vertical",
+//                "h_alignment": "center",
+//                "margin": "1,0",
+//                "content": [
+//                    {
+//                        "type": "itemgrid",
+//                        "margin": 0,
+//                        "item_margin": 0,
+//                        "item_size": 40,
+//                        "rows": [
+//                            [ "world_state_mode_small" ]
+//                        ]
+//                    },
+//                    {
+//                        "type": "itemgrid",
+//                        "margin": 0,
+//                        "item_margin": 0,
+//                        "item_size": 20,
+//                        "rows": [
+//                            [ "keysanity_map_small", "keysanity_compass_small" ],
+//                            [ "keysanity_smallkey_small", "keysanity_bigkey_small" ]
+//                        ]
+//                    },
+//                    {
+//                        "type": "array",
+//                        "orientation": "vertical",
+//                        "h_alignment": "left",
+//                        "v_alignment": "top",
+//                        "margin": 0,
+//                        "content": [
+//                            {
+//                                "type": "itemgrid",
+//                                "margin": "1,0",
+//                                "item_margin": 0,
+//                                "item_size": 20,
+//                                "rows": [
+//                                    [ "pool_shopsanity_small", "pool_bonkdrop_small" ]
+//                                ]
+//                            },
+//                            {
+//                                "type": "itemgrid",
+//                                "margin": "1,0",
+//                                "item_margin": 0,
+//                                "item_size": 20,
+//                                "rows": [
+//                                    [ "pool_enemydrop_small", "pool_dungeonpot_small" ]
+//                                ]
+//                            }
+//                        ]
+//                    },
+//                    {
+//                        "type": "itemgrid",
+//                        "margin": 0,
+//                        "item_margin": 0,
+//                        "item_size": 40,
+//                        "rows": [
+//                            [ "retro_mode_small"],
+//                            [ "gt_crystals" ]
+//                        ]
+//                    }
+//                ]
+//            },
+//            {
+//                "type": "array",
+//                "orientation": "vertical",
+//                "h_alignment": "center",
+//                "margin": "1,0",
+//                "content": [
+//                    {
+//                        "type": "itemgrid",
+//                        "margin": 0,
+//                        "item_margin": 0,
+//                        "item_size": 40,
+//                        "rows": [
+//                            [ "entrance_shuffle_small" ],
+//                            [ "door_shuffle_small" ]
+//                        ]
+//                    },
+//                    {
+//                        "type": "itemgrid",
+//                        "margin": 0,
+//                        "item_margin": 0,
+//                        "item_width": 40,
+//                        "item_height": 20,
+//                        "rows": [
+//                            [ "ow_mixed_small" ],
+//                            [ "ow_layout_small" ]
+//                        ]
+//                    },
+//                    {
+//                        "type": "itemgrid",
+//                        "margin": 0,
+//                        "item_margin": 0,
+//                        "item_size": 40,
+//                        "rows": [
+//                            [ "glitch_mode_small" ],
+//                            [ "goal_setting" ]
+//                        ]
+//                    }
+//                ]
+//            }
+//        ]
     },
     "shared_misc_vertical_grid": {
-        "type": "array",
-        "orientation": "vertical",
-        "v_alignment": "center",
-        "margin": "0,-2,0,-4",
-        "content": [
-            {
-                "type": "itemgrid",
-                "margin": 0,
-                "item_margin": "1,1.5",
-                "item_size": 46,
-                "badge_font_size": 20,
-                "rows": [
-                    [ "dam" ],
-                    [ "attic" ],
-                    [ "takeanycave" ],
-                    [ "race_mode_small" ]
-                ]
-            }
-        ]
+//        "type": "array",
+//        "orientation": "vertical",
+//        "v_alignment": "center",
+//        "margin": "0,-2,0,-4",
+//        "content": [
+//            {
+//                "type": "itemgrid",
+//                "margin": 0,
+//                "item_margin": "1,1.5",
+//                "item_size": 46,
+//                "badge_font_size": 20,
+//                "rows": [
+//                    [ "dam" ],
+//                    [ "attic" ],
+//                    [ "takeanycave" ],
+//                    [ "race_mode_small" ]
+//                ]
+//            }
+//        ]
     },
     "shared_misc_grid": {
         "type": "array",
@@ -519,43 +519,43 @@
         ]
     },
     "shared_misc_v_grid": {
-        "type": "group",
-        "header": "Miscellaneous",
-        "margin": 0,
-        "content": [
-            {
-                "type": "layout",
-                "key": "shared_misc_grid"
-            }
-        ]
+//        "type": "group",
+//        "header": "Miscellaneous",
+//        "margin": 0,
+//        "content": [
+//            {
+//                "type": "layout",
+//                "key": "shared_misc_grid"
+//            }
+//        ]
     },
     "shared_dropdown_vertical_grid": {
-        "type": "group",
-        "header": "Dropdowns",
-        "margin": 0,
-        "max_width": 0,
-        "content": [
-            {
-                "type": "array",
-                "orientation": "vertical",
-                "v_alignment": "center",
-                "margin": "0,-2,0,-4",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "margin": 0,
-                        "item_margin": "1,1.5",
-                        "item_size": 46,
-                        "rows": [
-                            [ "dropdown_uncle", "dropdown_well", "dropdown_swpinball" ],
-                            [ "dropdown_sanc", "dropdown_bat", "dropdown_swcompass" ],
-                            [ "dropdown_lumberjack", "dropdown_fairy", "dropdown_swbigchest" ],
-                            [ "dropdown_thief", "dropdown_ganon", "dropdown_swhazard" ]
-                        ]
-                    }
-                ]
-            }
-        ]
+//        "type": "group",
+//        "header": "Dropdowns",
+//        "margin": 0,
+//        "max_width": 0,
+//        "content": [
+//            {
+//                "type": "array",
+//                "orientation": "vertical",
+//                "v_alignment": "center",
+//                "margin": "0,-2,0,-4",
+//                "content": [
+//                    {
+//                        "type": "itemgrid",
+//                        "margin": 0,
+//                        "item_margin": "1,1.5",
+//                        "item_size": 46,
+//                        "rows": [
+//                            [ "dropdown_uncle", "dropdown_well", "dropdown_swpinball" ],
+//                            [ "dropdown_sanc", "dropdown_bat", "dropdown_swcompass" ],
+//                            [ "dropdown_lumberjack", "dropdown_fairy", "dropdown_swbigchest" ],
+//                            [ "dropdown_thief", "dropdown_ganon", "dropdown_swhazard" ]
+//                        ]
+//                    }
+//                ]
+//            }
+//        ]
     },
     "shared_dropdown_insanity_grid": {
         "type": "itemgrid",
@@ -603,35 +603,35 @@
         ]
     },
     "shared_dropdown_v_grid": {
-        "type": "group",
-        "header": "Dropdowns",
-        "margin": 0,
-        "max_height": 0,
-        "content": [
-            {
-                "type": "array",
-                "orientation": "vertical",
-                "h_alignment": "right",
-                "v_alignment": "top",
-                "margin": 0,
-                "scale": 1.09,
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "margin": 0,
-                        "item_margin": "1,0",
-                        "item_size": 40,
-                        "rows": [
-                            [ "dropdown_uncle", "dropdown_sanc", "dropdown_lumberjack", "dropdown_thief", "dropdown_well", "dropdown_bat", "dropdown_fairy", "dropdown_ganon" ]
-                        ]
-                    },
-                    {
-                        "type": "layout",
-                        "key": "ref_dropdown_insanity_grid"
-                    }
-                ]
-            }
-        ]
+//        "type": "group",
+//        "header": "Dropdowns",
+//        "margin": 0,
+//        "max_height": 0,
+//        "content": [
+//            {
+//                "type": "array",
+//                "orientation": "vertical",
+//                "h_alignment": "right",
+//                "v_alignment": "top",
+//                "margin": 0,
+//                "scale": 1.09,
+//                "content": [
+//                    {
+//                        "type": "itemgrid",
+//                        "margin": 0,
+//                        "item_margin": "1,0",
+//                        "item_size": 40,
+//                        "rows": [
+//                            [ "dropdown_uncle", "dropdown_sanc", "dropdown_lumberjack", "dropdown_thief", "dropdown_well", "dropdown_bat", "dropdown_fairy", "dropdown_ganon" ]
+//                        ]
+//                    },
+//                    {
+//                        "type": "layout",
+//                        "key": "ref_dropdown_insanity_grid"
+//                    }
+//                ]
+//            }
+//        ]
     },
     "shared_bottom_all_grid": {
         "type": "dock",
@@ -698,11 +698,11 @@
         "type": "tabbed",
         "tabs": [
             {
-                "title": "All",
-                "content": {
-                    "type": "map",
-                    "maps": [ "dungeon_egmap" ]
-                }
+//                "title": "All",
+//                "content": {
+//                    "type": "map",
+//                    "maps": [ "dungeon_egmap" ]
+//                }
             },
             {
                 "title": "HC",
@@ -798,104 +798,165 @@
         ]
     },
     "shared_dungeon_v_tab": {
+//        "type": "tabbed",
+//        "tabs": [
+//            {
+//                "title": "All",
+//                "content": {
+//                    "type": "map",
+//                    "maps": [ "dungeon_egmap" ]
+//                }
+//            },
+//            {
+//                "title": "HC",
+//                "content": {
+//                    "type": "map",
+//                    "maps": [ "dungeon_hc_escape", "dungeon_hc" ]
+//                }
+//            },
+//            {
+//                "title": "EP",
+//                "content": {
+//                    "type": "map",
+//                    "maps": [ "dungeon_ep" ]
+//                }
+//            },
+//            {
+//                "title": "DP",
+//                "content": {
+//                    "type": "map",
+//                    "maps": [ "dungeon_dp_back", "dungeon_dp" ]
+//                }
+//            },
+//            {
+//                "title": "ToH",
+//                "content": {
+//                    "type": "map",
+//                    "maps": [ "dungeon_toh" ]
+//                }
+//            },
+//            {
+//                "title": "AT",
+//                "content": {
+//                    "type": "map",
+//                    "maps": [ "dungeon_at" ]
+//                }
+//            },
+//            {
+//                "title": "PoD",
+//                "content": {
+//                    "type": "map",
+//                    "maps": [ "dungeon_pod" ]
+//                }
+//            },
+//            {
+//                "title": "SP",
+//                "content": {
+//                    "type": "map",
+//                    "maps": [ "dungeon_sp" ]
+//                }
+//            },
+//            {
+//                "title": "SW",
+//                "content": {
+//                    "type": "map",
+//                    "maps": [ "dungeon_sw_back", "dungeon_sw" ]
+//                }
+//            },
+//            {
+//                "title": "TT",
+//                "content": {
+//                    "type": "map",
+//                    "maps": [ "dungeon_tt" ]
+//                }
+//            },
+//            {
+//                "title": "IP",
+//                "content": {
+//                    "type": "map",
+//                    "maps": [ "dungeon_ip_vert" ]
+//                }
+//            },
+//            {
+//                "title": "MM",
+//                "content": {
+//                    "type": "map",
+//                    "maps": [ "dungeon_mm" ]
+//                }
+//            },
+//            {
+//                "title": "TR",
+//                "content": {
+//                    "type": "map",
+//                    "maps": [ "dungeon_tr_vert" ]
+//                }
+//            },
+//            {
+//                "title": "GT",
+//                "content": {
+//                    "type": "map",
+//                    "maps": [ "dungeon_gt_vert" ]
+//                }
+//            }
+//        ]
+    },
+    "shared_dark_room_tab": {    //NEW
         "type": "tabbed",
         "tabs": [
             {
                 "title": "All",
                 "content": {
                     "type": "map",
-                    "maps": [ "dungeon_egmap" ]
+                    "maps": [ "dark_room_egmap" ]
                 }
             },
             {
                 "title": "HC",
                 "content": {
                     "type": "map",
-                    "maps": [ "dungeon_hc_escape", "dungeon_hc" ]
+                    "maps": [ "dark_room_hc_escape" ]
                 }
             },
             {
                 "title": "EP",
                 "content": {
                     "type": "map",
-                    "maps": [ "dungeon_ep" ]
-                }
-            },
-            {
-                "title": "DP",
-                "content": {
-                    "type": "map",
-                    "maps": [ "dungeon_dp_back", "dungeon_dp" ]
-                }
-            },
-            {
-                "title": "ToH",
-                "content": {
-                    "type": "map",
-                    "maps": [ "dungeon_toh" ]
+                    "maps": [ "dark_room_ep" ]
                 }
             },
             {
                 "title": "AT",
                 "content": {
                     "type": "map",
-                    "maps": [ "dungeon_at" ]
+                    "maps": [ "dark_room_at" ]
                 }
             },
             {
                 "title": "PoD",
                 "content": {
                     "type": "map",
-                    "maps": [ "dungeon_pod" ]
-                }
-            },
-            {
-                "title": "SP",
-                "content": {
-                    "type": "map",
-                    "maps": [ "dungeon_sp" ]
-                }
-            },
-            {
-                "title": "SW",
-                "content": {
-                    "type": "map",
-                    "maps": [ "dungeon_sw_back", "dungeon_sw" ]
-                }
-            },
-            {
-                "title": "TT",
-                "content": {
-                    "type": "map",
-                    "maps": [ "dungeon_tt" ]
-                }
-            },
-            {
-                "title": "IP",
-                "content": {
-                    "type": "map",
-                    "maps": [ "dungeon_ip_vert" ]
+                    "maps": [ "dark_room_pod" ]
                 }
             },
             {
                 "title": "MM",
                 "content": {
                     "type": "map",
-                    "maps": [ "dungeon_mm" ]
+                    "maps": [ "dark_room_mm" ]
                 }
             },
             {
                 "title": "TR",
                 "content": {
                     "type": "map",
-                    "maps": [ "dungeon_tr_vert" ]
+                    "maps": [ "dark_room_tr" ]
                 }
             },
             {
-                "title": "GT",
+                "title": "Mountain",
                 "content": {
                     "type": "map",
-                    "maps": [ "dungeon_gt_vert" ]
+                    "maps": [ "dark_room_mountain" ]
                 }
             }
         ]
@@ -915,18 +976,18 @@
         ]
     },
     "shared_v_map": {
-        "type": "container",
-        "v_alignment": "center",
-        "content": [
-            {
-                "type": "layout",
-                "key": "map_item_v_grid" // maps.json
-            },
-            {
-                "type": "layout",
-                "key": "map" // maps.json
-            }
-        ]
+//        "type": "container",
+//        "v_alignment": "center",
+//        "content": [
+//            {
+//                "type": "layout",
+//                "key": "map_item_v_grid" // maps.json
+//            },
+//            {
+//                "type": "layout",
+//                "key": "map" // maps.json
+//            }
+//        ]
     },
     "dyk_lines_grid": {
         "type": "array",
@@ -1052,57 +1113,64 @@
                 }
             },
             {
-                "title": "Doors",
-                "content": {
-                    "type": "layout",
-                    "key": "shared_door_tab" // doors.json
-                }
+//                "title": "Doors",    //REMOVED FOR NOW
+//                "content": {
+//                    "type": "layout",
+//                    "key": "shared_door_tab" // doors.json
+//                }
             },
             {
-                "title": "Dashboard",
+//                "title": "Dashboard",    //REMOVED FOR NOW
+//                "content": {
+//                    "type": "array",
+//                    "orientation": "horizontal",
+//                    "v_alignment": "center",
+//                    "content": [
+//                        {
+//                            "type": "container",
+//                            "v_alignment": "center",
+//                            "min_width": 700,
+//                            "4k-max_width": 2780,
+//                            "max_width": 1390,
+//                            "content": [
+//                                {
+//                                    "type": "layout",
+//                                    "key": "shared_map"
+//                                }
+//                            ]
+//                        },
+//                        {
+//                            "type": "viewbox",
+//                            "v_alignment": "top",
+//                            "max_width": 530,
+//                            "content": [
+//                                {
+//                                    "type": "array",
+//                                    "orientation": "vertical",
+//                                    "h_alignment": "center",
+//                                    "content": [
+//                                        {
+//                                            "type": "layout",
+//                                            "margin": "0,0,0,10",
+//                                            "scale": 2.0,
+//                                            "key": "shared_doorslotselect" // doors.json
+//                                        },
+//                                        {
+//                                            "type": "layout",
+//                                            "key": "shared_doorrando_compact" // doors.json
+//                                        }
+//                                    ]
+//                                }
+//                            ]
+//                        }
+//                    ]
+//                }
+            },
+            {
+                "title": "Dark Rooms",    //NEW
                 "content": {
-                    "type": "array",
-                    "orientation": "horizontal",
-                    "v_alignment": "center",
-                    "content": [
-                        {
-                            "type": "container",
-                            "v_alignment": "center",
-                            "min_width": 700,
-                            "4k-max_width": 2780,
-                            "max_width": 1390,
-                            "content": [
-                                {
-                                    "type": "layout",
-                                    "key": "shared_map"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "viewbox",
-                            "v_alignment": "top",
-                            "max_width": 530,
-                            "content": [
-                                {
-                                    "type": "array",
-                                    "orientation": "vertical",
-                                    "h_alignment": "center",
-                                    "content": [
-                                        {
-                                            "type": "layout",
-                                            "margin": "0,0,0,10",
-                                            "scale": 2.0,
-                                            "key": "shared_doorslotselect" // doors.json
-                                        },
-                                        {
-                                            "type": "layout",
-                                            "key": "shared_doorrando_compact" // doors.json
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
+                    "type": "layout",
+                    "key": "shared_dark_room_tab"    //WIP
                 }
             },
             {
@@ -1122,43 +1190,43 @@
         ]
     },
     "shared_v_tab": {
-        "type": "tabbed",
-        "tabs": [
-            {
-                "title": "Overworld",
-                "content": {
-                    "type": "layout",
-                    "key": "shared_v_map"
-                }
-            },
-            {
-                "title": "Dungeons",
-                "content": {
-                    "type": "layout",
-                    "key": "shared_dungeon_v_tab"
-                }
-            },
-            {
-                "title": "Doors",
-                "content": {
-                    "type": "layout",
-                    "key": "shared_door_v_tab" // doors.json
-                }
-            },
-            {
-                "title": "Settings",
-                "content": {
-                    "type": "scroll",
-                    "horizontal_scrollbar_visibility": "auto",
-                    "vertical_scrollbar_visibility": "hidden",
-                    "content": {
-                        "type": "layout",
-                        "margin": "0,4,0,0",
-                        "key": "shared_v_settings" // settings.json
-                    }
-                }
-            }
-        ]
+//        "type": "tabbed",
+//        "tabs": [
+//            {
+//                "title": "Overworld",
+//                "content": {
+//                    "type": "layout",
+//                    "key": "shared_v_map"
+//                }
+//            },
+//            {
+//                "title": "Dungeons",
+//                "content": {
+//                    "type": "layout",
+//                    "key": "shared_dungeon_v_tab"
+//                }
+//            },
+//            {
+//                "title": "Doors",
+//                "content": {
+//                    "type": "layout",
+//                    "key": "shared_door_v_tab" // doors.json
+//                }
+//            },
+//            {
+//                "title": "Settings",
+//                "content": {
+//                    "type": "scroll",
+//                    "horizontal_scrollbar_visibility": "auto",
+//                    "vertical_scrollbar_visibility": "hidden",
+//                    "content": {
+//                        "type": "layout",
+//                        "margin": "0,4,0,0",
+//                        "key": "shared_v_settings" // settings.json
+//                    }
+//                }
+//            }
+//        ]
     },
     "shared_dock_grid": {
         "type": "layout",
