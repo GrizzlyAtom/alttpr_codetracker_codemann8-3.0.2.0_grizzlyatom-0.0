@@ -1,8 +1,164 @@
-{
-    //override this file and modify below to display a custom layout
-
-    "broadcast_custom": {
-        "type": "text",
-        "text": "Override 'layouts/broadcast_custom.json' to make a custom broadcast"
-    }
+{	
+	
+	"y_item_grid": {
+		"type": "container",
+		"margin": -5,	
+		"content": [
+			{	
+				"type": "itemgrid",
+				"item_size": 72,
+				"item_margin": "4,4",
+				"rows": [
+					["bow",		"boomerang_red",	"hookshot",	"bomb",		""			],
+					["firerod",	"icerod",			"bombos",	"ether",	"quake"		],
+					["lamp",	"hammer",			"",			"net",		"book"		],
+					["bottle",	"somaria",			"byrna",	"cape",		"mirror"	]
+				]
+			},
+			{	
+				"type": "item",
+				"item": "powder_used",
+				"width": 54,
+				"margin": "300,030,0,0"
+			},
+			{	
+				"type": "item",
+				"item": "mushroom_used",
+				"width": 54,
+				"margin": "360,010,0,0"
+			},
+			{	
+				"type": "item",
+				"item": "flute",
+				"width": 54,
+				"margin": "-30,190,0,0"
+			},
+			{	
+				"type": "item",
+				"item": "shovel_used",
+				"width": 54,
+				"margin": "30,170,0,0"
+			}
+		]
+	},
+	
+	"gear_item_grid": {
+		"type": "container",
+		"margin": -5,
+		"content": [
+			{	
+				"type": "itemgrid",
+				"item_size": 72,
+				"item_margin": "4,4",
+				"rows": [
+					["boots",		"sword"		],
+					["lift1",		"shield"	],
+					["flippers",	"armor"		],
+					["pearl",		"halfmagic"	]
+				]
+			}
+		]
+	},
+	
+	"mode_grid": {
+		"type": "container",
+		"margin": -5,
+		"content": [
+			{	
+				"type": "itemgrid",
+				"item_size": 72,
+				"item_margin": "4,4",
+				"rows": [	
+					[""],
+					[""],
+					["agas"],
+					["gomode"]
+				]
+			}
+		]
+	},
+	
+	"lw_keys_grid": {
+		"type": "itemgrid",
+		"margin": 0,
+		"item_margin": "4,4",
+		"item_size": 40,
+		"badge_font_size": 20,
+		"rows": [
+			[ "hc_label",		"easternpalace",	"desertpalace",		"towerofhera",		"at_label"		],
+			[ "hc_item",		"ep_item",			"dp_item",			"toh_item",			"at_item"		],
+			[ "hc_smallkey",	"ep_smallkey",		"dp_smallkey",		"toh_smallkey",		"at_smallkey"	],
+			
+			[ "hc_mcbk",		"ep_mcbk",			"dp_mcbk",			"toh_mcbk",			"at_mcbk"		]
+		]
+	},
+	
+	"dw_keys_grid": {
+		"type": "itemgrid",
+		"margin": 0,
+		"item_margin": "4,4",
+		"item_size": 40,
+		"badge_font_size": 20,
+		"rows": [
+			[ "palaceofdarkness",	"swamppalace",	"skullwoods",	"thievestown",	"icepalace",	"miserymire",	"turtlerock",	"gt_label"		],
+			[ "pod_item",			"sp_item",		"sw_item",		"tt_item",		"ip_item",		"mm_item",		"tr_item",		"gt_item"		],
+			[ "pod_smallkey",		"sp_smallkey",	"sw_smallkey",	"tt_smallkey",	"ip_smallkey",	"mm_smallkey",	"tr_smallkey",	"gt_smallkey"	],
+			
+			[ "pod_mcbk",			"sp_mcbk",		"sw_mcbk",		"tt_mcbk",		"ip_mcbk",		"mm_mcbk",		"tr_mcbk",		"gt_mcbk"		]
+		]
+	},
+	
+	"broadcast_custom": {
+		"type": "array",
+		"orientation": "vertical",
+		"dropshadow": false,
+		"margin": 0,
+		"content": [
+			{	
+				"type": "layout",
+				"margin": 20,
+				"width": 646,
+				"key": "shared_map"
+			},
+			{	
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": 20,
+				"content": [
+					{	
+						"type": "layout",
+						"margin": 0,
+						"key": "y_item_grid"
+					},
+					{	
+						"type": "layout",
+						"margin": 0,
+						"key": "gear_item_grid"
+					},
+					{	
+						"type": "layout",
+						"margin": 0,
+						"key": "mode_grid"
+					}
+				]
+			},
+			{	
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": 20,
+				"content": [
+					{	
+						"type": "layout",
+						"margin": 0,
+						"key": "lw_keys_grid"
+					},
+					{	
+						"type": "layout",
+						"margin": "22,0,0,0",
+						"key": "dw_keys_grid"
+					}
+				]
+			}
+		]
+	}
 }
