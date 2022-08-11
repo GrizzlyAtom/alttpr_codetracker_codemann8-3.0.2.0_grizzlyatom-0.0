@@ -1,0 +1,56 @@
+[
+    {
+        "name": "ipbj",
+        "location_size": 48,
+        "location_border_thickness": 5,
+        "img": "images/maps/qref/ipbj.png"
+    },
+    {
+        "name": "ice_breaker",
+        "location_size": 48,
+        "location_border_thickness": 5,
+        "img": "images/maps/qref/ice_breaker.png"
+    },
+    {
+        "name": "herapot",
+        "location_size": 48,
+        "location_border_thickness": 5,
+        "img": "images/maps/qref/herapot.png"
+    },
+    {
+        "name": "mire_door",
+        "location_size": 48,
+        "location_border_thickness": 5,
+        "img": "images/maps/qref/mire_door.png"
+    },
+    {
+        "name": "pod_stairs",
+        "location_size": 48,
+        "location_border_thickness": 5,
+        "img": "images/maps/qref/pod_stairs.png"
+    },
+    {
+        "name": "pod_bc",
+        "location_size": 48,
+        "location_border_thickness": 5,
+        "img": "images/maps/qref/pod_bc.png"
+    },
+    {
+        "name": "diver_down",
+        "location_size": 48,
+        "location_border_thickness": 5,
+        "img": "images/maps/qref/diver_down.png"
+    },
+    {
+        "name": "tree_pull",
+        "location_size": 48,
+        "location_border_thickness": 5,
+        "img": "images/maps/qref/tree_pull.png"
+    },
+    {
+        "name": "damage_table",
+        "location_size": 48,
+        "location_border_thickness": 5,
+        "img": "images/maps/qref/damage_table.png"
+    }
+]
