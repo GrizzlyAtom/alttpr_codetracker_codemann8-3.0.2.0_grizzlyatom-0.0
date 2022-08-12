@@ -698,11 +698,11 @@
         "type": "tabbed",
         "tabs": [
             {
-                "title": "All",
-                "content": {
-                    "type": "map",
-                    "maps": [ "dungeon_egmap" ]
-                }
+//                "title": "All",
+//                "content": {
+//                    "type": "map",
+//                    "maps": [ "dungeon_egmap" ]
+//                }
             },
             {
                 "title": "HC",
