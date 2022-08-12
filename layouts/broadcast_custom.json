@@ -111,7 +111,7 @@
 	"broadcast_custom": {
 		"type": "array",
 		"orientation": "vertical",
-		"dropshadow": false,
+		"dropshadow": true,
 		"margin": 0,
 		"content": [
 			{	//map
