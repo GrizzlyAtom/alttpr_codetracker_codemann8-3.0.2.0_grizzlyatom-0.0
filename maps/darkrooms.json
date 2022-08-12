@@ -1,0 +1,50 @@
+[
+    {
+        "name": "dark_room_egmap",
+        "location_size": 64,
+        "location_border_thickness": 5,
+        "img": "images/maps/darkrooms/dr_eg.png"
+    },
+    {
+        "name": "dark_room_hc_escape",
+        "location_size": 48,
+        "location_border_thickness": 5,
+        "img": "images/maps/darkrooms/dr_hc_escape.png"
+    },
+    {
+        "name": "dark_room_ep",
+        "location_size": 48,
+        "location_border_thickness": 5,
+        "img": "images/maps/darkrooms/dr_ep.png"
+    },
+    {
+        "name": "dark_room_at",
+        "location_size": 48,
+        "location_border_thickness": 5,
+        "img": "images/maps/darkrooms/dr_at.png"
+    },
+    {
+        "name": "dark_room_pod",
+        "location_size": 48,
+        "location_border_thickness": 5,
+        "img": "images/maps/darkrooms/dr_pod.png"
+    },
+    {
+        "name": "dark_room_mm",
+        "location_size": 48,
+        "location_border_thickness": 5,
+        "img": "images/maps/darkrooms/dr_mm.png"
+    },
+    {
+        "name": "dark_room_tr",
+        "location_size": 48,
+        "location_border_thickness": 5,
+        "img": "images/maps/darkrooms/dr_tr.png"
+    },
+    {
+        "name": "dark_room_mountain",
+        "location_size": 48,
+        "location_border_thickness": 5,
+        "img": "images/maps/darkrooms/dr_mt.png"
+    }
+]
