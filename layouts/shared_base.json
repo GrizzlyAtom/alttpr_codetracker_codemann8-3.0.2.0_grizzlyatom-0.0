@@ -367,137 +367,137 @@
         ]
     },
     "shared_mode_vertical_grid": {
-//        "type": "array",
-//        "orientation": "horizontal",
-//        "h_alignment": "center",
-//        "v_alignment": "center",
-//        "margin": "1,-4",
-//        "content": [
-//            {
-//                "type": "array",
-//                "orientation": "vertical",
-//                "h_alignment": "center",
-//                "margin": "1,0",
-//                "content": [
-//                    {
-//                        "type": "itemgrid",
-//                        "margin": 0,
-//                        "item_margin": 0,
-//                        "item_size": 40,
-//                        "rows": [
-//                            [ "world_state_mode_small" ]
-//                        ]
-//                    },
-//                    {
-//                        "type": "itemgrid",
-//                        "margin": 0,
-//                        "item_margin": 0,
-//                        "item_size": 20,
-//                        "rows": [
-//                            [ "keysanity_map_small", "keysanity_compass_small" ],
-//                            [ "keysanity_smallkey_small", "keysanity_bigkey_small" ]
-//                        ]
-//                    },
-//                    {
-//                        "type": "array",
-//                        "orientation": "vertical",
-//                        "h_alignment": "left",
-//                        "v_alignment": "top",
-//                        "margin": 0,
-//                        "content": [
-//                            {
-//                                "type": "itemgrid",
-//                                "margin": "1,0",
-//                                "item_margin": 0,
-//                                "item_size": 20,
-//                                "rows": [
-//                                    [ "pool_shopsanity_small", "pool_bonkdrop_small" ]
-//                                ]
-//                            },
-//                            {
-//                                "type": "itemgrid",
-//                                "margin": "1,0",
-//                                "item_margin": 0,
-//                                "item_size": 20,
-//                                "rows": [
-//                                    [ "pool_enemydrop_small", "pool_dungeonpot_small" ]
-//                                ]
-//                            }
-//                        ]
-//                    },
-//                    {
-//                        "type": "itemgrid",
-//                        "margin": 0,
-//                        "item_margin": 0,
-//                        "item_size": 40,
-//                        "rows": [
-//                            [ "retro_mode_small"],
-//                            [ "gt_crystals" ]
-//                        ]
-//                    }
-//                ]
-//            },
-//            {
-//                "type": "array",
-//                "orientation": "vertical",
-//                "h_alignment": "center",
-//                "margin": "1,0",
-//                "content": [
-//                    {
-//                        "type": "itemgrid",
-//                        "margin": 0,
-//                        "item_margin": 0,
-//                        "item_size": 40,
-//                        "rows": [
-//                            [ "entrance_shuffle_small" ],
-//                            [ "door_shuffle_small" ]
-//                        ]
-//                    },
-//                    {
-//                        "type": "itemgrid",
-//                        "margin": 0,
-//                        "item_margin": 0,
-//                        "item_width": 40,
-//                        "item_height": 20,
-//                        "rows": [
-//                            [ "ow_mixed_small" ],
-//                            [ "ow_layout_small" ]
-//                        ]
-//                    },
-//                    {
-//                        "type": "itemgrid",
-//                        "margin": 0,
-//                        "item_margin": 0,
-//                        "item_size": 40,
-//                        "rows": [
-//                            [ "glitch_mode_small" ],
-//                            [ "goal_setting" ]
-//                        ]
-//                    }
-//                ]
-//            }
-//        ]
+        "type": "array",
+        "orientation": "horizontal",
+        "h_alignment": "center",
+        "v_alignment": "center",
+        "margin": "1,-4",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "h_alignment": "center",
+                "margin": "1,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "margin": 0,
+                        "item_margin": 0,
+                        "item_size": 40,
+                        "rows": [
+                            [ "world_state_mode_small" ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "margin": 0,
+                        "item_margin": 0,
+                        "item_size": 20,
+                        "rows": [
+                            [ "keysanity_map_small", "keysanity_compass_small" ],
+                            [ "keysanity_smallkey_small", "keysanity_bigkey_small" ]
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "vertical",
+                        "h_alignment": "left",
+                        "v_alignment": "top",
+                        "margin": 0,
+                        "content": [
+                            {
+                                "type": "itemgrid",
+                                "margin": "1,0",
+                                "item_margin": 0,
+                                "item_size": 20,
+                                "rows": [
+                                    [ "pool_shopsanity_small", "pool_bonkdrop_small" ]
+                                ]
+                            },
+                            {
+                                "type": "itemgrid",
+                                "margin": "1,0",
+                                "item_margin": 0,
+                                "item_size": 20,
+                                "rows": [
+                                    [ "pool_enemydrop_small", "pool_dungeonpot_small" ]
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "margin": 0,
+                        "item_margin": 0,
+                        "item_size": 40,
+                        "rows": [
+                            [ "retro_mode_small"],
+                            [ "gt_crystals" ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "h_alignment": "center",
+                "margin": "1,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "margin": 0,
+                        "item_margin": 0,
+                        "item_size": 40,
+                        "rows": [
+                            [ "entrance_shuffle_small" ],
+                            [ "door_shuffle_small" ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "margin": 0,
+                        "item_margin": 0,
+                        "item_width": 40,
+                        "item_height": 20,
+                        "rows": [
+                            [ "ow_mixed_small" ],
+                            [ "ow_layout_small" ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "margin": 0,
+                        "item_margin": 0,
+                        "item_size": 40,
+                        "rows": [
+                            [ "glitch_mode_small" ],
+                            [ "goal_setting" ]
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     "shared_misc_vertical_grid": {
-//        "type": "array",
-//        "orientation": "vertical",
-//        "v_alignment": "center",
-//        "margin": "0,-2,0,-4",
-//        "content": [
-//            {
-//                "type": "itemgrid",
-//                "margin": 0,
-//                "item_margin": "1,1.5",
-//                "item_size": 46,
-//                "badge_font_size": 20,
-//                "rows": [
-//                    [ "dam" ],
-//                    [ "attic" ],
-//                    [ "takeanycave" ],
-//                    [ "race_mode_small" ]
-//                ]
-//            }
-//        ]
+        "type": "array",
+        "orientation": "vertical",
+        "v_alignment": "center",
+        "margin": "0,-2,0,-4",
+        "content": [
+            {
+                "type": "itemgrid",
+                "margin": 0,
+                "item_margin": "1,1.5",
+                "item_size": 46,
+                "badge_font_size": 20,
+                "rows": [
+                    [ "dam" ],
+                    [ "attic" ],
+                    [ "takeanycave" ],
+                    [ "race_mode_small" ]
+                ]
+            }
+        ]
     },
     "shared_misc_grid": {
         "type": "array",
@@ -519,43 +519,43 @@
         ]
     },
     "shared_misc_v_grid": {
-//        "type": "group",
-//        "header": "Miscellaneous",
-//        "margin": 0,
-//        "content": [
-//            {
-//                "type": "layout",
-//                "key": "shared_misc_grid"
-//            }
-//        ]
+        "type": "group",
+        "header": "Miscellaneous",
+        "margin": 0,
+        "content": [
+            {
+                "type": "layout",
+                "key": "shared_misc_grid"
+            }
+        ]
     },
     "shared_dropdown_vertical_grid": {
-//        "type": "group",
-//        "header": "Dropdowns",
-//        "margin": 0,
-//        "max_width": 0,
-//        "content": [
-//            {
-//                "type": "array",
-//                "orientation": "vertical",
-//                "v_alignment": "center",
-//                "margin": "0,-2,0,-4",
-//                "content": [
-//                    {
-//                        "type": "itemgrid",
-//                        "margin": 0,
-//                        "item_margin": "1,1.5",
-//                        "item_size": 46,
-//                        "rows": [
-//                            [ "dropdown_uncle", "dropdown_well", "dropdown_swpinball" ],
-//                            [ "dropdown_sanc", "dropdown_bat", "dropdown_swcompass" ],
-//                            [ "dropdown_lumberjack", "dropdown_fairy", "dropdown_swbigchest" ],
-//                            [ "dropdown_thief", "dropdown_ganon", "dropdown_swhazard" ]
-//                        ]
-//                    }
-//                ]
-//            }
-//        ]
+        "type": "group",
+        "header": "Dropdowns",
+        "margin": 0,
+        "max_width": 0,
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "v_alignment": "center",
+                "margin": "0,-2,0,-4",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "margin": 0,
+                        "item_margin": "1,1.5",
+                        "item_size": 46,
+                        "rows": [
+                            [ "dropdown_uncle", "dropdown_well", "dropdown_swpinball" ],
+                            [ "dropdown_sanc", "dropdown_bat", "dropdown_swcompass" ],
+                            [ "dropdown_lumberjack", "dropdown_fairy", "dropdown_swbigchest" ],
+                            [ "dropdown_thief", "dropdown_ganon", "dropdown_swhazard" ]
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     "shared_dropdown_insanity_grid": {
         "type": "itemgrid",
@@ -603,35 +603,35 @@
         ]
     },
     "shared_dropdown_v_grid": {
-//        "type": "group",
-//        "header": "Dropdowns",
-//        "margin": 0,
-//        "max_height": 0,
-//        "content": [
-//            {
-//                "type": "array",
-//                "orientation": "vertical",
-//                "h_alignment": "right",
-//                "v_alignment": "top",
-//                "margin": 0,
-//                "scale": 1.09,
-//                "content": [
-//                    {
-//                        "type": "itemgrid",
-//                        "margin": 0,
-//                        "item_margin": "1,0",
-//                        "item_size": 40,
-//                        "rows": [
-//                            [ "dropdown_uncle", "dropdown_sanc", "dropdown_lumberjack", "dropdown_thief", "dropdown_well", "dropdown_bat", "dropdown_fairy", "dropdown_ganon" ]
-//                        ]
-//                    },
-//                    {
-//                        "type": "layout",
-//                        "key": "ref_dropdown_insanity_grid"
-//                    }
-//                ]
-//            }
-//        ]
+        "type": "group",
+        "header": "Dropdowns",
+        "margin": 0,
+        "max_height": 0,
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "h_alignment": "right",
+                "v_alignment": "top",
+                "margin": 0,
+                "scale": 1.09,
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "margin": 0,
+                        "item_margin": "1,0",
+                        "item_size": 40,
+                        "rows": [
+                            [ "dropdown_uncle", "dropdown_sanc", "dropdown_lumberjack", "dropdown_thief", "dropdown_well", "dropdown_bat", "dropdown_fairy", "dropdown_ganon" ]
+                        ]
+                    },
+                    {
+                        "type": "layout",
+                        "key": "ref_dropdown_insanity_grid"
+                    }
+                ]
+            }
+        ]
     },
     "shared_bottom_all_grid": {
         "type": "dock",
@@ -698,11 +698,11 @@
         "type": "tabbed",
         "tabs": [
             {
-//                "title": "All",
-//                "content": {
-//                    "type": "map",
-//                    "maps": [ "dungeon_egmap" ]
-//                }
+                "title": "All",
+                "content": {
+                    "type": "map",
+                    "maps": [ "dungeon_egmap" ]
+                }
             },
             {
                 "title": "HC",
