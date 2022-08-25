@@ -1,5 +1,13 @@
 ExtendedChestCounter = ChestCounter:extend()
 ExtendedChestCounter:set {
+    CollectedCount = {
+        value = 0,
+        set = function(self, value) return math.min(math.max(value, self.DeductedCount), self.MaxCount) end,
+        afterSet = function(self)
+                self:UpdateBadgeAndIcon()
+                self:InvalidateAccessibility()
+            end
+    },
     ExemptedCount = {
         value = 0,
         afterSet = function(self)
@@ -13,16 +21,17 @@ ExtendedChestCounter:set {
             end
     },
     RemainingCount = {
-        get = function(self) return self.MaxCount - self.CollectedCount - self.ExemptedCount + self.DeductedCount end
+        get = function(self) return math.max(0, (self.MaxCount - self.ExemptedCount) - math.max(0, self.CollectedCount - self.DeductedCount)) end
     },
 }
 
-function ExtendedChestCounter:init(name, dungeonCode, sectionName, initialMaxCount)
+function ExtendedChestCounter:init(name, dungeonCode, sectionName, initialMaxCount, initialExemptCount)
     self:createItem(name)
     self.code = dungeonCode .. "_item"
     self:setProperty("dungeon", dungeonCode)
     self:setProperty("sectionName", sectionName)
     self.MaxCount = initialMaxCount
+    self.ExemptedCount = initialExemptCount
 end
 
 function ExtendedChestCounter:UpdateBadgeAndIcon()
@@ -81,4 +90,34 @@ end
 
 function ExtendedChestCounter:InvalidateAccessibility()
     
+end
+
+function ExtendedChestCounter:save()
+    local data = {}
+    data["min_count"] = self.MinCount
+    data["max_count"] = self.MaxCount
+    data["collected_count"] = self.CollectedCount
+    data["exempted_count"] = self.ExemptedCount
+    data["deducted_count"] = self.DeductedCount
+    return data
+end
+
+function ExtendedChestCounter:load(data)
+    if data["max_count"] ~= nil then
+        self.MaxCount = data["max_count"]
+    end
+    if data["min_count"] ~= nil then
+        self.MinCount = data["min_count"]
+    end
+    if data["collected_count"] ~= nil then
+        self.CollectedCount = data["collected_count"]
+    end
+    if data["exempted_count"] ~= nil then
+        self.ExemptedCount = data["exempted_count"]
+    end
+    if data["deducted_count"] ~= nil then
+        self.DeductedCount = data["deducted_count"]
+    end
+    
+    return true
 end

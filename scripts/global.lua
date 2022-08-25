@@ -249,19 +249,19 @@ function loadSwaps()
 end
 
 function loadDungeonChests()
-    ExtendedChestCounter("Hyrule Castle Items",      "hc",  "@Hyrule Castle & Escape", 6)
-    ExtendedChestCounter("Eastern Palace Items",     "ep",  "@Eastern Palace",         3)
-    ExtendedChestCounter("Desert Palace Items",      "dp",  "@Desert Palace",          2)
-    ExtendedChestCounter("Tower of Hera Items",      "toh", "@Tower of Hera",          2)
-    ExtendedChestCounter("Aganihm's Tower Items",    "at",  "@Agahnim's Tower",        0)
-    ExtendedChestCounter("Palace of Darkness Items", "pod", "@Palace of Darkness",     5)
-    ExtendedChestCounter("Swamp Palace Items",       "sp",  "@Swamp Palace",           6)
-    ExtendedChestCounter("Skull Woods Items",        "sw",  "@Skull Woods",            2)
-    ExtendedChestCounter("Thieves Town Items",       "tt",  "@Thieves Town",           4)
-    ExtendedChestCounter("Ice Palace Items",         "ip",  "@Ice Palace",             3)
-    ExtendedChestCounter("Misery Mire Items",        "mm",  "@Misery Mire",            2)
-    ExtendedChestCounter("Turtle Rock Items",        "tr",  "@Turtle Rock",            5)
-    ExtendedChestCounter("Ganon's Tower Items",      "gt",  "@Ganon's Tower",          20)
+    ExtendedChestCounter("Hyrule Castle Items",      "hc",  "@Hyrule Castle & Escape", 8,  2)
+    ExtendedChestCounter("Eastern Palace Items",     "ep",  "@Eastern Palace",         6,  3)
+    ExtendedChestCounter("Desert Palace Items",      "dp",  "@Desert Palace",          6,  4)
+    ExtendedChestCounter("Tower of Hera Items",      "toh", "@Tower of Hera",          6,  4)
+    ExtendedChestCounter("Aganihm's Tower Items",    "at",  "@Agahnim's Tower",        2,  2)
+    ExtendedChestCounter("Palace of Darkness Items", "pod", "@Palace of Darkness",     14, 9)
+    ExtendedChestCounter("Swamp Palace Items",       "sp",  "@Swamp Palace",           10, 4)
+    ExtendedChestCounter("Skull Woods Items",        "sw",  "@Skull Woods",            8,  6)
+    ExtendedChestCounter("Thieves Town Items",       "tt",  "@Thieves Town",           8,  4)
+    ExtendedChestCounter("Ice Palace Items",         "ip",  "@Ice Palace",             8,  5)
+    ExtendedChestCounter("Misery Mire Items",        "mm",  "@Misery Mire",            8,  6)
+    ExtendedChestCounter("Turtle Rock Items",        "tr",  "@Turtle Rock",            12, 7)
+    ExtendedChestCounter("Ganon's Tower Items",      "gt",  "@Ganon's Tower",          27, 7)
 end
 
 function loadDoorObjects()
@@ -398,21 +398,33 @@ function updateChests()
         end
 
         newMax = 0
+        local newDeducted = 0
         if not shouldChestCountUp() or OBJ_DOORSHUFFLE:getState() < 2 then
             if OBJ_KEYMAP:getState() == 0 and DATA.DungeonList[i] ~= "at" then
                 newMax = newMax + 1
+                if Tracker:FindObjectForCode(DATA.DungeonList[i] .. "_map").Active then
+                    newDeducted = newDeducted + 1
+                end
             end
             if OBJ_KEYCOMPASS:getState() == 0 and DATA.DungeonList[i] ~= "hc" and DATA.DungeonList[i] ~= "at" then
                 newMax = newMax + 1
+                if Tracker:FindObjectForCode(DATA.DungeonList[i] .. "_compass").Active then
+                    newDeducted = newDeducted + 1
+                end
             end
             if OBJ_KEYSMALL:getState() == 0 and key then
                 newMax = newMax + key.MaxCount
+                newDeducted = newDeducted + key.AcquiredCount
             end
             if OBJ_KEYBIG:getState() == 0 and DATA.DungeonList[i] ~= "at" and (DATA.DungeonList[i] ~= "hc" or OBJ_POOL_ENEMYDROP:getState() > 0) then
                 newMax = newMax + 1
+                if Tracker:FindObjectForCode(DATA.DungeonList[i] .. "_bigkey").Active then
+                    newDeducted = newDeducted + 1
+                end
             end
         end
         item.ExemptedCount = newMax
+        item.DeductedCount = newDeducted
 
         OBJ_DOORDUNGEON:updateIcon()
         OBJ_DOORCHEST:updateIcon()
@@ -520,6 +532,12 @@ function updateLayout(setting)
                 end
             end
         end
+        if Tracker.ActiveVariantUID == "full_tracker" and setting == nil then
+            updateMaps()
+            OBJ_DOORSHUFFLE:postUpdate()
+            OBJ_ENTRANCE:postUpdate()
+            OBJ_MIXED:postUpdate()
+        end
     end
     if setting == nil or setting.file == "broadcast.lua" then
         if Tracker.ActiveVariantUID == "vanilla" then
@@ -575,6 +593,37 @@ function updateDyk()
     e.Current.Margin = string.format("%i,%i,0,0", math.random(10, 550), math.random(10, 132))
     e:MoveNext()
     e.Current.Margin = string.format("%i,%i,0,0", math.random(10, 550), math.random(10, 132))
+end
+
+function updateAllGhosts()
+    if Tracker.ActiveVariantUID == "full_tracker" then
+        --Update Ghost Badges
+        -- if CONFIG.PREFERENCE_ENABLE_DEBUG_LOGGING then
+        --     print("Before ghost update: " .. os.clock() - STATUS.START_CLOCK)
+        -- end
+        updateGhosts(DATA.CaptureBadgeOverworld, false, false)
+        if OBJ_ENTRANCE:getState() < 2 then
+            updateGhosts(DATA.CaptureBadgeUnderworld, false, true)
+        end
+        if OBJ_ENTRANCE:getState() > 0 then
+            updateGhosts(DATA.CaptureBadgeDungeons, true, true)
+            
+            if OBJ_ENTRANCE:getState() > 1 then
+                updateGhosts(DATA.CaptureBadgeEntrances, true, true)
+                updateGhosts(DATA.CaptureBadgeConnectors, true, true)
+                updateGhosts(DATA.CaptureBadgeDropdowns, true, true)
+                updateGhosts(DATA.CaptureBadgeSWDungeons, true, true)
+                updateGhosts(DATA.CaptureBadgeSWDropdowns, true, true)
+
+                if OBJ_ENTRANCE:getState() == 4 then
+                    updateGhosts(DATA.CaptureBadgeInsanity, true, true)
+                end
+            end
+        end
+        -- if CONFIG.PREFERENCE_ENABLE_DEBUG_LOGGING then
+        --     print("After ghost update: " .. os.clock() - STATUS.START_CLOCK)
+        -- end
+    end
 end
 
 function updateGhosts(list, clearSection, markHostedItem)
